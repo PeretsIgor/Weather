@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC3A5881C660CA900297EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC3A5871C660CA900297EC5 /* main.m */; };
+		DCC3A58B1C660CA900297EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC3A58A1C660CA900297EC5 /* AppDelegate.m */; };
+		DCC3A58E1C660CA900297EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC3A58D1C660CA900297EC5 /* ViewController.m */; };
+		DCC3A5911C660CA900297EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3A58F1C660CA900297EC5 /* Main.storyboard */; };
+		DCC3A5931C660CA900297EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3A5921C660CA900297EC5 /* Assets.xcassets */; };
+		DCC3A5961C660CA900297EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3A5941C660CA900297EC5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCC3A5831C660CA900297EC5 /* HWMapWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWMapWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC3A5871C660CA900297EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC3A5891C660CA900297EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC3A58A1C660CA900297EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC3A58C1C660CA900297EC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCC3A58D1C660CA900297EC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCC3A5901C660CA900297EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC3A5921C660CA900297EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC3A5951C660CA900297EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC3A5971C660CA900297EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC3A5801C660CA900297EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC3A57A1C660CA900297EC5 = {
+			isa = PBXGroup;
+			children = (
+				DCC3A5851C660CA900297EC5 /* HWMapWeather */,
+				DCC3A5841C660CA900297EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC3A5841C660CA900297EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3A5831C660CA900297EC5 /* HWMapWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC3A5851C660CA900297EC5 /* HWMapWeather */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3A5891C660CA900297EC5 /* AppDelegate.h */,
+				DCC3A58A1C660CA900297EC5 /* AppDelegate.m */,
+				DCC3A58C1C660CA900297EC5 /* ViewController.h */,
+				DCC3A58D1C660CA900297EC5 /* ViewController.m */,
+				DCC3A58F1C660CA900297EC5 /* Main.storyboard */,
+				DCC3A5921C660CA900297EC5 /* Assets.xcassets */,
+				DCC3A5941C660CA900297EC5 /* LaunchScreen.storyboard */,
+				DCC3A5971C660CA900297EC5 /* Info.plist */,
+				DCC3A5861C660CA900297EC5 /* Supporting Files */,
+			);
+			path = HWMapWeather;
+			sourceTree = "<group>";
+		};
+		DCC3A5861C660CA900297EC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3A5871C660CA900297EC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC3A5821C660CA900297EC5 /* HWMapWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC3A59A1C660CA900297EC5 /* Build configuration list for PBXNativeTarget "HWMapWeather" */;
+			buildPhases = (
+				DCC3A57F1C660CA900297EC5 /* Sources */,
+				DCC3A5801C660CA900297EC5 /* Frameworks */,
+				DCC3A5811C660CA900297EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWMapWeather;
+			productName = HWMapWeather;
+			productReference = DCC3A5831C660CA900297EC5 /* HWMapWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC3A57B1C660CA900297EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Perets;
+				TargetAttributes = {
+					DCC3A5821C660CA900297EC5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DCC3A57E1C660CA900297EC5 /* Build configuration list for PBXProject "HWMapWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC3A57A1C660CA900297EC5;
+			productRefGroup = DCC3A5841C660CA900297EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC3A5821C660CA900297EC5 /* HWMapWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC3A5811C660CA900297EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC3A5961C660CA900297EC5 /* LaunchScreen.storyboard in Resources */,
+				DCC3A5931C660CA900297EC5 /* Assets.xcassets in Resources */,
+				DCC3A5911C660CA900297EC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC3A57F1C660CA900297EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC3A58E1C660CA900297EC5 /* ViewController.m in Sources */,
+				DCC3A58B1C660CA900297EC5 /* AppDelegate.m in Sources */,
+				DCC3A5881C660CA900297EC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCC3A58F1C660CA900297EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC3A5901C660CA900297EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC3A5941C660CA900297EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC3A5951C660CA900297EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC3A5981C660CA900297EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCC3A5991C660CA900297EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC3A59B1C660CA900297EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWMapWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HWMapWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCC3A59C1C660CA900297EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWMapWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HWMapWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC3A57E1C660CA900297EC5 /* Build configuration list for PBXProject "HWMapWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3A5981C660CA900297EC5 /* Debug */,
+				DCC3A5991C660CA900297EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC3A59A1C660CA900297EC5 /* Build configuration list for PBXNativeTarget "HWMapWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC3A59B1C660CA900297EC5 /* Debug */,
+				DCC3A59C1C660CA900297EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC3A57B1C660CA900297EC5 /* Project object */;
+}
